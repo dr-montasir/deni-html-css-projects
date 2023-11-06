@@ -23,6 +23,14 @@ footer {
   text-align: center;
 }
 
+main {
+  padding: 50px;
+}
+
+section {
+  background: #ffffff;
+}
+
 footer {
   padding: 50px;
   background: black;
