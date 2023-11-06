@@ -7,16 +7,21 @@ body {
   background: #4a98f7;
 }
 
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: min-content 1fr min-content;
+}
+
 header {
   padding: 50px;
-  text-align: center;
   background: #ffffff;
 }
 
-/*
-black = #000000;
-white = #ffffff;
-*/
+header,
+footer {
+  text-align: center;
+}
 
 footer {
   padding: 50px;
