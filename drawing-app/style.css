@@ -27,6 +27,14 @@ main {
   padding: 50px;
 }
 
+.main {
+  display: flex;
+  gap: 10px;
+  max-width: 1050px;
+  align-items: center;
+  justify-content: center;
+}
+
 section {
   background: #ffffff;
 }
