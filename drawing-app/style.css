@@ -7,6 +7,16 @@ body {
   background: #4a98f7;
 }
 
+a {
+  color: #000000;
+}
+
+/* cyan = #00ffff; */
+a:hover {
+  color: #00ffff;
+  text-decoration: none;
+}
+
 .container {
   display: grid;
   height: 100vh;
@@ -14,7 +24,7 @@ body {
 }
 
 header {
-  padding: 50px;
+  padding: 30px;
   background: #ffffff;
 }
 
@@ -24,7 +34,7 @@ footer {
 }
 
 main {
-  padding: 50px;
+  padding: 70px;
 }
 
 .main {
