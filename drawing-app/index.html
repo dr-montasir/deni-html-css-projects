@@ -13,14 +13,31 @@
   <div class="container">
     <header>
       <h1>Drawing App</h1>
-      <p style="padding-top: 10px">My name is <a href="https://t.me/+group_name" title="Go to Deni telegram group">
+      <p style="padding-top: 5px; font-size: 20px">My name is <a href="https://t.me/+group_name"
+          title="Go to Deni telegram group">
           <i><b>Deni</b></i>
         </a></p>
 
     </header>
     <main class="main">
-      <section class="tools-board">1</section>
-      <section class="drawing-board">2</section>
+      <section class="tools-board">
+        <div class="row">
+          <label>Shapes</label>
+        </div>
+        <div class="row">
+          <label>Options</label>
+        </div>
+        <div class="row">
+          <label>Colors</label>
+        </div>
+        <div class="row">
+          <button>Clear Canvas</button>
+          <button>Save As Image</button>
+        </div>
+      </section>
+      <section class="drawing-board">
+        <canvas></canvas>
+      </section>
     </main>
 
     <!--<footer>
