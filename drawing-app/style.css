@@ -73,6 +73,34 @@ button {
   font-size: 18px;
 }
 
+.buttons button {
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 11px 0;
+  margin-bottom: 13px;
+  background: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.buttons .clear-canvas {
+  color: #6c757d;
+  border: 1px solid #6c757d;
+}
+
+.clear-canvas:hover {
+  color: #fff;
+  background: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.buttons .save-img {
+  background: #4a98f7;
+  border: 1px solid #4a98f7;
+}
+
 .drawing-board {
   width: 850px;
   overflow: hidden;
