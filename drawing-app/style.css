@@ -68,6 +68,11 @@ section {
   margin-bottom: 20px;
 }
 
+.row .options {
+  list-style: none;
+  margin: 10px 0 0 5px;
+}
+
 label,
 button {
   font-size: 18px;
