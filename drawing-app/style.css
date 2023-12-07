@@ -55,7 +55,6 @@ main {
 section {
   background: #ffffff;
   border-radius: 7px;
-  border: 5px solid #000000;
 }
 
 .tools-board {
@@ -70,7 +69,7 @@ section {
 
 .row .options {
   list-style: none;
-  margin: 10px 0 0 5px;
+  margin: 10px 5px 0 5px;
 }
 
 .row .options .option {
@@ -116,6 +115,50 @@ section {
   justify-content: space-between;
 }
 
+.colors .option {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 3px;
+  position: relative;
+}
+
+.colors .option:nth-child(1) {
+  background-color: #fff;
+  border: 1px solid #bfbfbf;
+}
+
+.colors .option:nth-child(2) {
+  background-color: #000;
+  border: 1px solid #bfbfbf;
+}
+
+.colors .option:nth-child(3) {
+  background-color: #e02020;
+  border: 1px solid #bfbfbf;
+}
+
+.colors .option:nth-child(4) {
+  background-color: #6dd400;
+  border: 1px solid #bfbfbf;
+}
+
+.colors .option:nth-child(5) {
+  background-color: #4a98f7;
+  border: 1px solid #bfbfbf;
+}
+
+/*
+
+  — здесь мы напишем стиль для выбранного варианта (selected option),
+  — который будет работать только тогда, когда мы подключим JavaScript
+
+*/
+
+.option #color-picker {
+  opacity: 0;
+}
+
 label,
 button {
   font-size: 18px;
@@ -126,10 +169,11 @@ button {
   color: #fff;
   border: none;
   outline: none;
-  padding: 11px 0;
+  padding: 7px 0 11px 0;
   margin-bottom: 13px;
   background: none;
-  border-radius: 30px;
+  /* border-radius: 30px; */
+  border-radius: 7px;
   cursor: pointer;
 }
 
