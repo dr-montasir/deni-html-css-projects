@@ -59,7 +59,6 @@ section {
 
 .tools-board {
   width: 210px;
-  /* padding: 15px 22px 0 22px; */
   padding: 15px 22px 0;
 }
 
@@ -155,6 +154,23 @@ section {
 
 */
 
+.colors .option.selected::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  background: inherit;
+  border-radius: inherit;
+  transform: translate(-50%, -50%);
+}
+
+.colors .option:first-child.selected::before {
+  border-color: #ccc;
+}
+
 .option #color-picker {
   opacity: 0;
 }
@@ -172,7 +188,6 @@ button {
   padding: 7px 0 11px 0;
   margin-bottom: 13px;
   background: none;
-  /* border-radius: 30px; */
   border-radius: 7px;
   cursor: pointer;
 }
@@ -196,6 +211,11 @@ button {
 .drawing-board {
   width: 850px;
   overflow: hidden;
+}
+
+.drawing-board canvas {
+  width: 100%;
+  height: 100%;
 }
 
 footer {
